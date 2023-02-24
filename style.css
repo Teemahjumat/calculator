@@ -7,8 +7,9 @@ body{
     width: 300px;
     padding: 10px;
     box-shadow: 7px 7px 42px #d6d6d6;
-    background-color: white;
-    border-radius: 9px;
+    background-color: black;
+    border-radius: 20px;
+    /* border-radius: 9px; */
 }
 
 
@@ -23,14 +24,15 @@ body{
 .button{
     height: 60px;
     padding: 5px;
-    background-color: white;
-     border-radius: 3px;
-     border: 1px solid #c4c4c4;
-     background-color: transparent;
-     font-size: 2rem;
-     background-image: linear-gradient(to bottom, transparent, transparent 50px rgba(0,0,0,0.4));
+    /* border-radius: 3px; */
+    border-radius: 50%;
+    border: 1px solid #c4c4c4;
+    font-size: 2rem;
     text-shadow: 0 1px rgba(0,0,0,0.5);
-     box-shadow: inset 0 0 0 1px rgba(225, 225, 225, 0.5), inset 0 -1px 0 0 rgba(225, 225, 225, 0.15), inset 0 1px 0 0 rgba(225, 225, 225, 0.15);
+    box-shadow: inset 0 0 0 1px rgba(225, 225, 225, 0.5), inset 0 -1px 0 0 rgba(225, 225, 225, 0.15), inset 0 1px 0 0 rgba(225, 225, 225, 0.15);
+    /* background-color: transparent; */
+    /* background-image: linear-gradient(to bottom, transparent, transparent 50px rgba(0,0,0,0.4)); */
+    /* background-color: white; */
 }
 input{
     outline: none;
@@ -41,8 +43,10 @@ input{
     background-color: #eaeaea;
 }
 .operator{
-    background-color: lightgreen;
+    background-color:#fec10a ;
     font-size: 1.34em;
+    border-radius: 5px;
+    /* background-color: lightgreen; */
 }
 
 .clear{
@@ -50,30 +54,38 @@ input{
     border-color:#b0353a ;
     width:95px;
     height: 40px;
+    border-radius: 3px;
     color: white;
 }
 .clear:hover{
     background-color: #f17377;
 }
 .equal-sign{
-    background-color: #25e8e0;
-    border-color: #25e8e0;
+    background-color:#fec10a ;
+    border-color: #fec10a;
     color: #fff;
+    /* border-color: #25e8e0; */
+    /* background-color: #25e8e0; */
 }
 .equal-sign:hover{
-    background-color: #4e9ed4;
+    background-color:#00ff00 ;
+    border-color: #00ff00;
+    /* background-color: #4e9ed4; */
 }
 .screen{
 
-    background-color:rgba(171,219,231);
+    background-color: #4c4c4d;
     justify-content: left;
-    color: black;
+    color: #fff;
     font-size: medium;
     width: 85%;
     height: 30%;
     cursor: default;
     padding: 10px;
     margin: auto;
+    border-radius: 3px;
+    /* color: black; */
+    /* background-color:rgba(171,219,231); */
 }
 
 @media screen and (max-width: 320px){ 
